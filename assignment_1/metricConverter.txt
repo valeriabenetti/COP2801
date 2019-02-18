@@ -1,0 +1,17 @@
+4. Justin Kace is promoting the metric system and wants people to be able to convert
+miles to kilometers and kilometers to miles. You are to develop a program that asks the
+user for a number of miles and converts miles to kilometers (multiplying miles by 1.609),
+and then asks for a number of kilometers and converts kilometers to miles (multiplying
+kilometers by 0.6214).
+Using pseudocode, develop an algorithm to solve this problem. Save your algorithm in a
+file named metricConverter.txt in Notepad.
+
+
+
+if input is set in miles
+    multiply miles by 1.609 and set it as kilometers
+    print kilometers
+elseif the input is set in kilometers
+    multiply kilometers by 0.6214 and set it as miles
+    print miles
+end

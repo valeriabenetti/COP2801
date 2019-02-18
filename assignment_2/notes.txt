@@ -1,0 +1,55 @@
+This assignment covers module 1 and module topics. 
+
+To write the programs below you will need to demonstrate an understanding of the following topics:
+• Variable (Module 1)
+• Simple Data Types (Module 1)
+
+
+Please refer back to the module lectures if you find you have any gaps in your
+understanding for these topics.
+
+
+
+
+
+
+Introduction
+1. Problem: Write a program named polynomial.js, that evaluates the polynomial shown
+here:
+x^2 – 4x + 7 where x = 3
+
+
+
+
+2.Problem: Sunshine Books is a bookstore that’s open every morning from 8:00 am to
+12:00 pm. The manager wants information about the number of customers in the store
+at different times. A clerk, whose station is near the door, counts customers by making a
+mark on a piece of paper each time a customer enters. The paper is divided into four
+segments, one for each hour, and the clerk notes the time before making each mark.
+When the store closes at noon, the clerk wants to enter the numbers in a program,
+which then displays the total number of customers for the day and the average number
+of customers per hour.
+Your job, as the programmer, is to develop a program to calculate the customers for the
+day, and the average number of customers per hour.
+Assume the clerk has counted the following customers:
+Hour # Customers
+1 75
+2 96
+3 22
+4 108
+Write a program named “sunshine_books.js” that calculates and displays the total
+customers for the day and the average customers per hour.
+
+3.
+Problem: You have been asked to create a program called “payroll_calc.js”, that
+computes and displays paycheck information for employees. The program should
+compute the gross pay. After it has computed the gross pay, it should deduct three
+types of income tax withholding – federal (at a rate of 15%), state (at 3.4%), and county
+(at 1.1%) – as well as the amount of the employee’s medical insurance deduction.
+Finally, the program should total the deductions and calculate the net pay, and display
+all this information, including the employee’s name. Use the following values:
+First Name: Meredith
+Last Name: Fitch
+Hours Worked: 40
+Hourly Wage Rate: $15.50
+Medical Insurance Deduction: $55.00

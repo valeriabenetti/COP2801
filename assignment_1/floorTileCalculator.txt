@@ -1,0 +1,23 @@
+3. Zach Stern, a floor tiler doing business as Zach Stern’s Tile, needs to know the area
+of any rectangular floor he’s tiling. He wants a program that asks for the room’s length
+and width and the cost per square foot of tile. The program should calculate and display
+the room’s area in square feet and the cost of the tile needed to cover the room.
+Using pseudocode, develop an algorithm to solve this problem. Save your algorithm in a
+file named floorTileCalculator.txt in Notepad.
+
+
+He wants a program that asks for the room’s length
+and width and the cost per square foot of tile.
+
+get the room length
+get the room width
+
+set squareFoot to equal length times width
+
+get the square foot price
+
+set the total cost to equal the square foot price times the square foot
+
+
+print the square foot
+print the total cost

@@ -1,0 +1,24 @@
+2. Brianna Watt, a consultant doing business as Watt Gives, wants a program to create
+an invoice for consulting services. Normally, she works on a project for five days before
+sending an invoice. She writes down the number of hours worked on each day and
+needs a program that asks for these amounts, totals them, and multiplies the amount by
+her standard rate of $30.00 per hour. The invoice should include Brianna’s business
+name, the client’s business name, the total number of hours worked, the rate, and the
+total amount billed. The information will be displayed onscreen.
+Using pseudocode, develop an algorithm to solve this problem. Save your algorithm in a
+file named consultingInvoice.txt in Notepad.
+
+set the business name to Watt Gives
+set the rate to 30.00
+get the client name and set it to equal clientName
+set the total hours to 0
+if the hours worked is greater than 0
+    Add the hours to total hours
+end
+
+total = rate * totalHours
+print the business name and then do a line break
+print the client name and then do a line break
+print the total hours and then do a line break
+print the rate and then do a line break
+print  the total 

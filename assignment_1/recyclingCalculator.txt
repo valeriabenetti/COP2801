@@ -1,0 +1,19 @@
+1. Employees at Morning Buzz Coffee Shop have been told they’ll get a bonus if they
+bring in enough pounds of recyclable newspapers. They want a program to calculate
+the amount they need to bring in each day to make this total, based on the total number
+of pounds to be collected and the number of days they’ll be bringing in newspapers. The
+program should ask for these amounts and calculate how many pounds they need to
+bring in each day to make the total in that number of days. They plan to run the program
+several times until they find a number of pounds that seems reasonable.
+Using pseudocode, develop an algorithm to solve this problem. Save your algorithm in a
+file named recyclingCalculator.txt in Notepad.
+
+
+amount
+day
+total pounds
+
+
+get the total amount that the employee is looking to get
+get the total number of days that the employee wants to work in trying to bring in the newspapers
+divide the total amount by the total number of days to get the pounds needed for each day.
