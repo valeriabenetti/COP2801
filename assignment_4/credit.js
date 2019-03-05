@@ -9,9 +9,9 @@ function displayWelcome() {
 // value when you display the minimum payment!
 function calculateMinimumPayment(balance, interestRate) {
   var minPayPmt = balance * interestRate;
-  if ( minPayPmt < minMinimumPayment)
+  if ( minPayPmt < minMinPayment)
   {
-    return minMinimumPayment
+    return minMinPayment
   }
   else
   {
@@ -91,13 +91,13 @@ var yearlyInterestRate = 0.18;
 // Assuming a minimum payment of 2% of the balance ($30 min)
 var minPaymentInterestRate = 0.02;
 // Your minimum payment would be $ 30.00
-var minMinimumPayment = 30.00
+var minMinPayment = 30.00
 
 
 
 var minimumPayment = calculateMinimumPayment(currentBalance, minPaymentInterestRate);
 
-// Make the initial id 1.
+// Make the initial id 1. 
 var lastPaymentId = 0;
 
 displayWelcome();
