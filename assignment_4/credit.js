@@ -9,9 +9,9 @@ function displayWelcome() {
 // value when you display the minimum payment!
 function calculateMinimumPayment(balance, interestRate) {
   var minPayPmt = balance * interestRate;
-  if ( minPayPmt < minMinPayment)
+  if ( minPayPmt < minMinimumPayment)
   {
-    return minMinPayment
+    return minMinimumPayment
   }
   else
   {
@@ -48,12 +48,12 @@ function getNextPaymentID() {
 
 function processPaymentSchedule(balance, interestRate, minPayment) {
   var year = 0;
-  var paymentNbr = 0;
+  var lastPaymentId = 0;
   var interestPaid = 0;
 
   while(balance > 0) {
-    paymentNbr++;
-    if (paymentNbr % 12 == 1){
+    getNextPaymentID();
+    if (lastPaymentId % 12 == 1){
       year++;
     }
 
@@ -67,7 +67,7 @@ function processPaymentSchedule(balance, interestRate, minPayment) {
 
     var payment = {
       Year: year,
-      PaymentNbr: paymentNbr,
+      LastPaymentId: lastPaymentId,
       Balance: balance,
       InterestPaid: interestPaid
     };
@@ -77,12 +77,12 @@ function processPaymentSchedule(balance, interestRate, minPayment) {
 // 5. displayPayment
 // This function should take the payment object literal and display it on the console.
 function displayPayment(payment) {
-  if(payment.PaymentNbr == 1) {
+  if(payment.lastPaymentId == 1) {
     console.log("\nPAYOFF SCHEDULE");
     console.log("_________________");
     console.log("Year    Balance   Payment ID    Interest Paid")
   }
-  console.log((payment.PaymentNbr % 12 == 1 ? payment.Year : " ") + "$" + payment.Balance.toFixed(2) + "  " + getNextPaymentID() + "$" + payment.InterestPaid.toFixed(2));
+  console.log((payment.lastPaymentId % 12 == 1 ? payment.Year : " ") + "$" + payment.Balance.toFixed(2) + "  " + getNextPaymentID() + "$" + payment.InterestPaid.toFixed(2));
 }
 // Balance on your credit card: 1500
 var currentBalance = 1500.00;
@@ -91,14 +91,11 @@ var yearlyInterestRate = 0.18;
 // Assuming a minimum payment of 2% of the balance ($30 min)
 var minPaymentInterestRate = 0.02;
 // Your minimum payment would be $ 30.00
-var minMinPayment = 30.00
+var minMinimumPayment = 30.00
 
 
 
 var minimumPayment = calculateMinimumPayment(currentBalance, minPaymentInterestRate);
-
-// Make the initial id 1. 
-var lastPaymentId = 0;
 
 displayWelcome();
 processPaymentSchedule(currentBalance, yearlyInterestRate, minimumPayment);
