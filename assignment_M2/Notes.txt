@@ -1,0 +1,27 @@
+1. Profit Calculator
+
+A company has determined that its annual profit is typically 23 percent of total sales. Write a program using the file name sales_prediction.js, that displays the profit based on the user entered amount of total sales for the year. ( Program prompt the user for the projected total sales amount ). Display the profit amount formatted to two decimal places.
+
+
+2. Pounds to Kilogram Converter
+
+Write a program using the file name pound_to_kg.js Prompt the user to enter the amount of lbs, and display the value in Kilograms formatted to 3 decimal points. Use full precision for the conversion value, 2.2 as an example would not provide correct conversion values. 
+
+
+3. Purchase Calculator
+
+A customer in a store is purchasing five items. Write a program called total_purchase.js that creates five items with literal numeric values. The prices of the items should be as follows:
+
+item 1: $9.99
+
+item 2: $5.99
+
+item 3: $.99
+
+item 4: $59.50
+
+item 5: $.25
+
+It then calculates and displays the subtotal of the sale, the amount of sales tax, and the total. The sales tax is 7 percent. Display the answer to two decimal places.
+
+Save all the programs in a folder named assignment_M2. zip that folder and submit in the Programming Assignment M2 Dropbox 

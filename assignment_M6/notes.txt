@@ -1,0 +1,94 @@
+This assignment covers module 1 thru module 6 topics.
+
+Note: It is required to use the ES6 style of keywords => instead of the older function and for variables use the keyword let, not var, class and within the constructor, not function.
+
+15 POINTS
+
+Summary:
+
+This assignment covers arrays, classes, functions and higher order functions. please follow the task description below explicitly. 
+
+Requirements:
+
+The tasks for this program are:
+
+
+Create a new JavaScript file, and use the name "M6_Solution.js"
+
+
+Create a class using "names" as the identifier. 
+
+     Create a constructor 
+
+The constructor will have the following elements
+
+first  ( value passed will be String )
+last  ( value passed will be String )
+age  ( value passed will be Numeric )
+
+
+The constructor will assign the values for the three elements and should use the "this" keyword
+
+Some suggested references are:
+
+https://scotch.io/tutorials/demystifying-es6-classes-and-prototypal-inheritance
+
+https://www.sitepoint.com/object-oriented-javascript-deep-dive-es6-classes/
+
+These are for the old methods using function for reference:
+
+https://www.w3schools.com/js/js_object_constructors.asp
+
+https://www.geeksforgeeks.org/javascript-object-constructors/
+
+Create a function, using "printObject" as the identifier
+
+printObject:
+
+This function will have three input parameters:
+
+allNames , sortType, message
+
+Will sort the array of objects (allNames) using sortType as the key to how the arrays objects will be sorted.
+
+These sort functions, are higher order functions, one required for each sort option except none. A higher order function type is calling a function with an argument that is a function. In this assignment, one would be using the builtin sort for arrays, allNames.sort( your function here ); This function will override the default sort order, built into array.sort()
+
+
+The sort options are first , last , age, none. 
+
+Will print the message to the console
+
+
+Will use a loop to print out the array by index ascending and display the values located in the elements: first last age, for each index accessed ( see example below )
+
+Some suggested references are:
+
+https://www.w3schools.com/js/js_array_sort.asp
+
+https://www.sitepoint.com/sort-an-array-of-objects-in-javascript/
+
+Create a function main, no input parameters
+
+
+main:
+
+
+Create the empty array using the identifier "allNames"
+
+Using the push() method, load 4 new objects of names to the array allNames, populating the fields first , last , age ( data is of your choosing, for example: allNames.push( new names("Cammo", "Hammer", 39));
+
+
+
+Call printObject, passing the array , sort method as a string ( options are first, last, age, none )
+
+Last line of the script, would be the call to the main
+
+
+Below is an example output, all console messages should match, the difference is it is your choice for the data loaded for the elements
+
+Save all the programs in a folder named assignment_M6. zip that folder and submit in the Programming Assignment M6 Dropbox 
+
+
+Some tips for success:
+
+Modular programs allow one to program is small steps, for example in this case one can have the framework of the class and main and other functions, once this runs without an error start adding required features in each function.  In this assignment, code the class / constructor, then a main which create and loads the objects. Once this runs, add to the printObject code to print the results using a for loop ( which is by index ), then add one at a time the sort options which would use the same print loop.

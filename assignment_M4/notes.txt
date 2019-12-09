@@ -1,0 +1,58 @@
+This assignment covers module 1 thru module 4 topics. 
+
+Note: For all programs, create and call a main function, and if required additional functions called by the main. Also please use the ES6 style of keywords => instead of the older function and for local scope variables use the keyword let, not var
+
+5 POINTS
+
+1. coinflip.js
+
+For this program you will have two functions, one called main and the second called flip. This program is also required the use of a loop construct.
+
+Write a program that simulates tossing a coin. Prompt the user for how many times to toss the coin. Code a function called flip with no parameters that randomly ( use the math library random ) returns either the String "heads"or the string "tails". Call this function in main as many times as requested using a loop and report the results. See Example outputs below.
+
+Example Outputs
+
+How many times should I toss the coin? 1000
+Results of 1000 tosses.
+Heads: 483, tails: 517
+
+How many times should I toss the coin? 1000000
+Results of 1000000 tosses.
+Heads: 500074, tails: 499926
+Recheck the requirements before you submit.
+
+5 POINTS
+
+2. cookout.js
+
+Assume that hot dogs come in packages of 10, and hot dog buns come in packages of 8. Write a program called cookout.js, that calculates the number of packages of hot dogs and the number of packages of hot dog buns needed for a cookout, with the minimum amount of leftovers.
+
+The program will prompt for the number of people attending the cookout and as how many hot dogs each guest will eat. The program should display the following details.
+
+The minimum number of packages of hot dogs required.
+
+The minimum number of packages of hot dog buns required.
+
+The number of hot dogs that will be left over.
+
+The number of hot dog buns that will be left over.
+
+5 POINTS
+
+3. triangle.js
+
+Write a program that is required to use nested loops to generate a triangle as shown in the sample run below. The program should begin by prompting the user to enter the number of lines in the triangle and output to the console to match the example below.
+
+Hint:  Each line will contain either "O" or " " (spaces) to align the output to appear right justified
+
+How many lines of the triangle?:6
+
+OOOOOO
+ OOOOO
+  OOOO
+   OOO
+    OO
+     O
+
+
+Save all the programs in a folder named assignment_M4. zip that folder and submit in the Programming Assignment M4 Dropbox 

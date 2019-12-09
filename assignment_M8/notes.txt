@@ -1,0 +1,58 @@
+Summary:
+
+This assignment must use regex statements and test each regexp rule for a user password required to meet complexity requirements. While a single regexp could be made to cover the all rules, it is necessary to have one for each rule to let the user know which are met ( or not ).
+
+Requirements:
+
+Password rules:
+
+One or more uppercase letter
+One or more lower case letter
+One or more number
+One or more from this group @#$%^
+Minimum Length 8 Characters
+
+The tasks for this program are:
+
+
+Create a new JavaScript file, and use the name "M8_Solution.js"
+
+Within the above file:
+
+Create a function, using "testPassword" as the identifier
+
+testPassword:
+
+This function will have three input parameters:
+
+password , rulesRegexp, rulesText.
+
+Will iterate the array of rulesRegexp testing each rule on the user provided password.
+
+Within the iterate, display to the user a message from the array rulesText and the status of the regex test.
+
+Return a boolean value ( true / false ), true is set only if all rules were met.
+
+
+Create a function main, no input parameters
+
+main:
+
+Create two arrays, one containing the String messages ( see example output for the rules , you must code for all of them ) and one for the RegExp objects.
+
+Display to the user the password requirements ( use the created text array ).
+
+Prompt the user for the Password to verify.
+
+Call  testPassword passing the two arrays and user supplied password.
+
+
+Last line of the script, would be the call to the main
+
+Below is an example output, all console messages should match ( color change not required for full points )
+
+!!BONUS:!!
+
+In the example below the passed/fail messages are in green/red. Research ( online  ) and implement this feature for a 1 point bonus!
+
+Save all the programs in a folder named assignment_M8. zip that folder and submit in the Programming Assignment M8 Dropbox 
